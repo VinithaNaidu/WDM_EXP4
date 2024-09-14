@@ -18,6 +18,7 @@
 # Visitor segmentation based on characteristics
 # read the data
 import pandas as pd
+import matplotlib as plt
 visitor_df = pd.read_csv('/content/clustervisitor.csv')
 
 # Perform segmentation based on characteristics (e.g., age groups)
@@ -56,7 +57,8 @@ plt.title('Visitor Distribution Across Age Groups')
 plt.show()
 ```
 ### Output:
-![wdm41](https://github.com/user-attachments/assets/aa21e36f-5250-426e-b914-292cda378607)
+
+![wdm42](https://github.com/user-attachments/assets/615a078a-5cf3-48a3-8dab-b2afeaf45bbb)
 
 
 ### Result:
